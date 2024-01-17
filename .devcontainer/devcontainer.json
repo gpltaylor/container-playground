@@ -1,0 +1,21 @@
+{
+    "name": "Dev Container - Playground",
+    // Playing around with different dev containers
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        //Git and GitHub Setup
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+        //Programming languages        
+        "ghcr.io/devcontainers/features/go:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "redhat.vscode-yaml",
+                "golang.go",
+                "ms-vscode.makefile-tools"
+            ]
+        }
+    }
+}
