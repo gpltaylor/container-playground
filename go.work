@@ -1,0 +1,9 @@
+go 1.21.6
+
+use (
+	./hello-world
+	./waitgroup
+	./worker-pool
+	./arrays
+	./algo
+)
